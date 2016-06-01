@@ -17,6 +17,7 @@ namespace iCodeGenerator.GenericDataAccess
 		ODBC
 	}
 
+#pragma warning disable 618
 	public class DataAccessProviderTypeFactory
 	{
 
@@ -108,4 +109,5 @@ namespace iCodeGenerator.GenericDataAccess
 		}
 		#endregion
 	}
+#pragma warning restore 618
 }
